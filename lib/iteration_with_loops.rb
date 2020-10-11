@@ -9,7 +9,7 @@ def join_nested_strings(src)
 
     while element_count < src[array_count].length do
       if src[array_count][element_count].class == String
-        final_sentence + src[array_count][element_count]
+        final_sentence = final_sentence + src[array_count][element_count]
       end
       element_count += 1
     end
